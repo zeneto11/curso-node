@@ -28,7 +28,10 @@ const getSocket = ()=>{
         onBack: async(dist)=>{await cmder.sendBack(dist)},
         onRight: async(dist)=>{await cmder.sendRight(dist)},
         onLeft: async(dist)=>{await cmder.sendLeft(dist)},
-        onFlip: async()=>{await cmder.sendFlip()},
+        onCw: async(dist)=>{await cmder.sendCw(dist)},
+        onCcw: async(dist)=>{await cmder.sendCcw(dist)},
+        onFlipBack: async()=>{await cmder.sendFlipBack()},
+        onFlipFront: async()=>{await cmder.sendFlipFront()},
         onBattery: async()=>{await cmder.sendBattery()}
     })
     console.log('Iniciating!')

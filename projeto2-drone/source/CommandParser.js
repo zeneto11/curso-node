@@ -29,8 +29,22 @@ class CommandParser {
                 drone.onLeft(dist)
                 return true
             }
-            if (line=='flip') {
-                drone.onFlip()
+            if (line.startsWith('cw')) {
+                const [, dist] = line.split(' ')
+                drone.onCw(dist)
+                return true
+            }
+            if (line.startsWith('ccw')) {
+                const [, dist] = line.split(' ')
+                drone.onCcw(dist)
+                return true
+            }
+            if (line=='flip b') {
+                drone.onFlipBack()
+                return true
+            }
+            if (line=='flip f') {
+                drone.onFlipFront()
                 return true
             }
             if (line=='battery') {
