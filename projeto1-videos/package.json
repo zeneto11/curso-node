@@ -1,0 +1,16 @@
+{
+  "name": "projeto1-videos",
+  "version": "1.0.0",
+  "description": "Compressão de vídeos com FFMPEG e NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeneto11/curso-node.git"
+  },
+  "keywords": [],
+  "author": "José Augusto de Almeida Neto",
+  "license": "ISC"
+}
