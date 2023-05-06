@@ -1,0 +1,22 @@
+### get admin
+GET http://localhost:3000/admin
+### get usuario
+GET http://localhost:3000/usuario
+### get admin com id
+GET http://localhost:3000/admin/250
+### get usuario com id
+GET http://localhost:3000/usuario/250
+### acessando via post
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "login":"zeneto",
+    "senha":"123456"
+}
+### acessando via patch
+PATCH http://localhost:3000/admin/250
+### acessando via patch
+PUT  http://localhost:3000/admin/250
+### acessando via patch
+DELETE  http://localhost:3000/admin/250
