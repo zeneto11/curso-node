@@ -1,0 +1,33 @@
+{
+  "name": "projeto4-restapi",
+  "version": "1.0.0",
+  "description": "REST API com NodeJS e MondoDB",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zeneto11/curso-node.git"
+  },
+  "keywords": [
+    "restapi",
+    "nodejs",
+    "express",
+    "npm",
+    "mongodb",
+    "javascript"
+  ],
+  "author": "José Augusto de Almeida Neto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zeneto11/curso-node/issues"
+  },
+  "homepage": "https://github.com/zeneto11/curso-node#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22"
+  }
+}
